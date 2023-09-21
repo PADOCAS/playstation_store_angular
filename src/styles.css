@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+/* CSS Global: */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box -> Isso significa que o conteúdo real do elemento será dimensionado para se ajustar ao espaço disponível dentro das bordas, em vez de empurrar as bordas para fora, o que é o comportamento padrão do modelo de caixa. */
+  box-sizing: border-box;
+}
+
+body {
+  /* Fundo Gradiente azulado */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(9, 9, 121, 1) 100%
+  );
+}
