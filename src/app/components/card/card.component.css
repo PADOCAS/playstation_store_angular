@@ -1,0 +1,24 @@
+.card_container {
+  /* Quero que os outros elementos fiquem na frente dele, por isso o relative vai ficar sempre atrás */
+  position: relative;
+  border: 3px solid #3E4357;
+  border-radius: 5px;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  /* Tudo que exceder o tamanho do nosso componente será escondido */
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.card_img {
+  min-width: 100%;
+  min-height: 100%;
+  /* Efeito para a imagem */
+  transition: transform 0.8s;
+}
+
+.card_img:hover {
+  /* Mudando a dimensão da imagem ao passar o mouse */
+  transform: scale(1.1);
+}

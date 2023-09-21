@@ -1,0 +1,19 @@
+.card-label_container {
+  /* position absolute -> vai ficar a frente dos relativos */
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.card_label_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0D;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  height: 30px;
+  padding: 0px 40px;
+}
