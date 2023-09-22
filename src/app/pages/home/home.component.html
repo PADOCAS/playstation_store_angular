@@ -1,3 +1,35 @@
 <div class="home_container">
-  <app-card></app-card>
+  <app-card
+    gameCover="assets/bt-5.jpg"
+    gameLabel="Exclusive"
+    gamePrice="R$ 299,99"
+    gameType="Full Game"
+    [gameSpans]="[
+      { gameSpanEstilo: 'spanPrincipal', gameType: 'Digital Game' },
+      { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' }
+    ]"
+  ></app-card>
+  <app-card
+    gameCover="assets/ac-cover.jpg"
+    gameLabel="Cross Buy"
+    gamePrice="R$ 199,90"
+    gameType="Digital Game"
+    [gameSpans]="[
+      { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game' },
+      { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' },
+      { gameSpanEstilo: 'spanSecundario', gameType: 'PS3' }
+    ]"
+  ></app-card>
+  <app-card
+    gameCover="assets/bt-hardline.jpg"
+    gameLabel="Cross Buy"
+    gamePrice="R$ 299,50"
+    gameType="Digital Game"
+    [gameSpans]="[
+      { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game!' },
+      { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' },
+      { gameSpanEstilo: 'spanSecundario', gameType: 'PS3' },
+      { gameSpanEstilo: 'spanSecundario', gameType: 'PS Vita' }
+    ]"
+  ></app-card>
 </div>
