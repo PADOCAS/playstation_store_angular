@@ -10,6 +10,8 @@ import { CardLabelComponent } from './components/card/card-label/card-label.comp
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { MenuBarItemComponent } from './components/menu-bar/menu-bar-item/menu-bar-item.component';
 import { MenuBarLogoComponent } from './components/menu-bar/menu-bar-logo/menu-bar-logo.component';
+import { MenuBarSonyComponent } from './components/menu-bar/menu-bar-sony/menu-bar-sony.component';
+import { MenuBarPrincipalComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MenuBarLogoComponent } from './components/menu-bar/menu-bar-logo/menu-b
     CardLabelComponent,
     CardPricingComponent,
     MenuBarItemComponent,
-    MenuBarLogoComponent
+    MenuBarLogoComponent,
+    MenuBarSonyComponent,
+    MenuBarPrincipalComponent
   ],
   imports: [
     BrowserModule,

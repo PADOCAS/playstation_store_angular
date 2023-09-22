@@ -1,0 +1,6 @@
+.menu-bar-principal_container {
+  height: 41px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+}

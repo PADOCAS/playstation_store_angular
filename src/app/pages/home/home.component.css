@@ -2,7 +2,7 @@
   width: 90%;
   /* centralizar os elementos */
   margin: auto;
-  padding-top: 50px;
+  padding-top: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
