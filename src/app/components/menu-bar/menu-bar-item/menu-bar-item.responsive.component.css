@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+  .menu_bar_item ul li {
+    padding: 1px;
+    margin-right: 5px;
+  }
+
+  .menu_bar_item ul li a {
+    padding: 1px;
+  }
+
+  .menu_bar_item {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
