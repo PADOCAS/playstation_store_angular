@@ -1,0 +1,18 @@
+.menu-bar-principal-center_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  height: 41px;
+}
+
+.menu-bar-principal-center_container button {
+  font-family: "SST", helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #356bcc;
+  color: #ffffff;
+  padding: 2px 7px;
+  border-radius: 15px;
+  cursor: pointer;
+}

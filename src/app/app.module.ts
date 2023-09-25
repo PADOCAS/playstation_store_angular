@@ -14,6 +14,8 @@ import { MenuBarSonyComponent } from './components/menu-bar/menu-bar-sony/menu-b
 import { MenuBarPrincipalComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal.component';
 import { MenuBarPrincipalLeftComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-left/menu-bar-principal-left.component';
 import { MenuBarPrincipalLeftItemComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-left/menu-bar-principal-left-item/menu-bar-principal-left-item.component';
+import { MenuBarPrincipalCenterComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-center/menu-bar-principal-center.component';
+import { MenuBarPrincipalRightComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-right/menu-bar-principal-right.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { MenuBarPrincipalLeftItemComponent } from './components/menu-bar/menu-ba
     MenuBarSonyComponent,
     MenuBarPrincipalComponent,
     MenuBarPrincipalLeftComponent,
-    MenuBarPrincipalLeftItemComponent
+    MenuBarPrincipalLeftItemComponent,
+    MenuBarPrincipalCenterComponent,
+    MenuBarPrincipalRightComponent
   ],
   imports: [
     BrowserModule,
