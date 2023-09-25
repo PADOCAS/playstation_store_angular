@@ -32,7 +32,7 @@ import { MenuBarPrincipalRightComponent } from './components/menu-bar/menu-bar-p
     MenuBarPrincipalLeftComponent,
     MenuBarPrincipalLeftItemComponent,
     MenuBarPrincipalCenterComponent,
-    MenuBarPrincipalRightComponent
+    MenuBarPrincipalRightComponent,
   ],
   imports: [
     BrowserModule,
