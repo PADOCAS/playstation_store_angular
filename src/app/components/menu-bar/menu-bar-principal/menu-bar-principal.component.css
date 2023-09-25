@@ -3,4 +3,6 @@
   background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
+  /* position -> fixed deixar esse menu sempre aparecendo mesmo que rolar a tela para baixo!! */
+  /* position: fixed; */
 }
