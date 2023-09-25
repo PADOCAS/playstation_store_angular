@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+  .menu-bar-principal_container {
+    grid-template-columns: 4fr 3fr;
+  }
+}

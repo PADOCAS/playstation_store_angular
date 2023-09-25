@@ -1,0 +1,20 @@
+@media screen and (max-width: 1100px) {
+  .app-menu-bar-principal-left-item_container {
+    margin-left: 20px;
+  }
+  .app-menu-bar-principal-left-item_container h1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app-menu-bar-principal-left-item_container {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .menu-bar-principal-left-item_princ {
+    display: none;
+  }
+}

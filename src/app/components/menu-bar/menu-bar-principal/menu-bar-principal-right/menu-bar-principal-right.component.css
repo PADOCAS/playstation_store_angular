@@ -4,7 +4,6 @@
   justify-content: space-between;
   width: 85%;
   align-items: center;
-  margin-left: 15px;
   height: 38px;
   margin: 3px;
   border: 2px solid #999999;
@@ -14,10 +13,9 @@
 .menu-bar-principal-right_container input {
   width: 70%;
   padding: 4px;
-  font-size: 14px;
+  font-size: 16px;
   color: #999999;
   font-weight: normal;
-  margin-left: 5px;
   text-decoration: none;
   font-family: "SST", helvetica, arial, sans-serif;
 }

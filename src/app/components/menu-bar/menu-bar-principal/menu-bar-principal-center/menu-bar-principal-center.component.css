@@ -4,11 +4,12 @@
   justify-content: right;
   align-items: center;
   height: 41px;
+  margin-right: 15px;
 }
 
 .menu-bar-principal-center_container button {
   font-family: "SST", helvetica, arial, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   background-color: #356bcc;
   color: #ffffff;
