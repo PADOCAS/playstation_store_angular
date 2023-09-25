@@ -1,13 +1,18 @@
 .menu_bar_container {
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   /* position -> fixed deixar esse menu sempre aparecendo mesmo que rolar a tela para baixo!! */
   position: fixed;
   /* z-index -> profundidade do componente (quando maior fica a frente dos outros, quando menor fica atrás de outros) */
   /* queremos deixar ele a frente de outros componentes, por isso 999 */
   z-index: 999;
-  background-color: #ffffff;
   width: 100%;
+}
+
+.menu_bar_container_content {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
   height: 64px;
   /* Sombreamento (define 4 propriedades por sentido horário, só queremos para baixo com um leve sombreado escuro) */
   box-shadow: 0px, 0px, 6px, 0px rgba(0, 0, 0, 0.5);

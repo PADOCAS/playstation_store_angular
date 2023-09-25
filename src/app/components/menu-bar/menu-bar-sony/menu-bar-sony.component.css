@@ -18,3 +18,8 @@
   margin-right: 5px;
   color: #FFFFFF;
 }
+
+.menu-bar-sony_container.hidden {
+  /* Quando utilizar o scroll para baixo vamos retirar o menu Sony (igual ao site oficial) */
+  display: none;
+}
