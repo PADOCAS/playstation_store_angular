@@ -1,0 +1,9 @@
+.card-destaque-princ_container {
+  height: 580px;
+  /* background-image: url(../../../assets/fifa_2024_teste.jpeg); */
+  background-image: url(https://trivela.com.br/wp-content/uploads/2023/07/EA-FC24.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 202px;
+}

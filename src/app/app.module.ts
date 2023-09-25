@@ -16,6 +16,7 @@ import { MenuBarPrincipalLeftComponent } from './components/menu-bar/menu-bar-pr
 import { MenuBarPrincipalLeftItemComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-left/menu-bar-principal-left-item/menu-bar-principal-left-item.component';
 import { MenuBarPrincipalCenterComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-center/menu-bar-principal-center.component';
 import { MenuBarPrincipalRightComponent } from './components/menu-bar/menu-bar-principal/menu-bar-principal-right/menu-bar-principal-right.component';
+import { CardDestaquePrincComponent } from './components/card-destaque-princ/card-destaque-princ.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MenuBarPrincipalRightComponent } from './components/menu-bar/menu-bar-p
     MenuBarPrincipalLeftItemComponent,
     MenuBarPrincipalCenterComponent,
     MenuBarPrincipalRightComponent,
+    CardDestaquePrincComponent,
   ],
   imports: [
     BrowserModule,
