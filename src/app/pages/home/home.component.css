@@ -1,6 +1,7 @@
-.home_container {
+
+/*
+ .home_container {
   width: 90%;
-  /* centralizar os elementos */
   margin: auto;
   padding-top: 150px;
   display: flex;
@@ -9,3 +10,4 @@
   align-items: baseline;
   flex-wrap: wrap;
 }
+*/

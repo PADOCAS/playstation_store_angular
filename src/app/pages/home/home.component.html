@@ -1,4 +1,4 @@
-<div class="home_container">
+<!-- <div class="home_container">
   <app-card
     gameCover="assets/bt-5.jpg"
     gameLabel="Exclusive"
@@ -32,4 +32,51 @@
       { gameSpanEstilo: 'spanSecundario', gameType: 'PS Vita' }
     ]"
   ></app-card>
-</div>
+</div> -->
+
+<app-menu-bar></app-menu-bar>
+<app-card-destaque-princ></app-card-destaque-princ>
+<app-card-destaque-secundarios
+  [cardsDestaquesSecundarios]="[
+    {
+      name: 'Baldurs Gate 3',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/161/541/132983c7-9156-467d-a9b0-e95a64ab6114.jpg?w=440&thumb=false'
+    },
+    {
+      name: 'Resident Evil 4',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/163/945/3247ac35-8737-4e6f-9c6b-e7d617ab8de0.png?w=440&thumb=false'
+    },
+    {
+      name: 'Spider-Man 2',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/159/265/142dd38e-df8f-4663-823c-2d4d1a1bd3e4.jpg?w=440&thumb=false'
+    },
+    {
+      name: 'Like a Dragon: Infinite Wealth',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/163/948/e0ff4f1a-b196-4ef8-911d-2406c3e5f356.png?w=440&thumb=false'
+    },
+    {
+      name: 'Lies of P',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/162/102/be34b511-4d4e-4cc7-a48c-55d112c40d56.png?w=440&thumb=false'
+    },
+    {
+      name: 'UFC® 5 Edição Deluxe',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/163/145/ae13a8ef-c0d9-4ceb-bb18-328e71f87f05.jpg?w=440&thumb=false'
+    },
+    {
+      name: 'Fortnite',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/162/975/38fe9201-fcb4-4f13-9676-5b995e8b1247.jpg?w=440&thumb=false'
+    },
+    {
+      name: 'The Crew™ Motorfest - Pacote Cross-Gen',
+      photo:
+        'https://image.api.playstation.com/pr/bam-art/163/629/897c0279-829d-4c26-b5c3-f54087b9da62.jpg?w=440&thumb=false'
+    }
+  ]"
+></app-card-destaque-secundarios>
