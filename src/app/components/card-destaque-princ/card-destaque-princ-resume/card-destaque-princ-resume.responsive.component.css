@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+  .card-destaque-princ-resume_container {
+    padding: 28px 5px;
+  }
+
+  .card-destaque-princ-resume_left p {
+    font-size: 16px;
+  }
+  .card-destaque-princ-resume_left h2 {
+    font-size: 12px;
+  }
+
+  .card-destaque-princ-resume_right button {
+    font-size: 15px;
+  }
+}

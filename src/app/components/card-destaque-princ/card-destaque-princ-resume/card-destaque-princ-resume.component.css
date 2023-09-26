@@ -1,0 +1,38 @@
+.card-destaque-princ-resume_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 202px;
+  height: 129px;
+  position: relative;
+  padding: 28px 40px;
+  box-shadow: 0 20px 21px #0000001f;
+}
+
+.card-destaque-princ-resume_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-destaque-princ-resume_right button {
+  font-family: "SST", helvetica, arial, sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #356bcc;
+  color: #ffffff;
+  padding: 14px 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.card-destaque-princ-resume_left p {
+  font-size: 31px;
+  font-weight: normal;
+  margin-bottom: 28px;
+}
+
+.card-destaque-princ-resume_left h2 {
+  color: #999999;
+  font-weight: normal;
+  font-size: 20px;
+}
