@@ -1,3 +1,6 @@
 <div class="card-destaque-secundarios_container">
-  <p>Testando Rei!</p>
+  <app-card-destaque-secundarios-content
+    *ngFor="let cardDestaqueSecundario of cardsDestaquesSecundarios"
+    name="{{ cardDestaqueSecundario.name }}" photo="{{cardDestaqueSecundario.photo}}"
+  ></app-card-destaque-secundarios-content>
 </div>

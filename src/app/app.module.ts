@@ -20,6 +20,7 @@ import { CardDestaquePrincComponent } from './components/card-destaque-princ/car
 import { CardDestaquePrincPhotoComponent } from './components/card-destaque-princ/card-destaque-princ-photo/card-destaque-princ-photo.component';
 import { CardDestaquePrincResumeComponent } from './components/card-destaque-princ/card-destaque-princ-resume/card-destaque-princ-resume.component';
 import { CardDestaqueSecundariosComponent } from './components/card-destaque-secundarios/card-destaque-secundarios.component';
+import { CardDestaqueSecundariosContentComponent } from './components/card-destaque-secundarios/card-destaque-secundarios-content/card-destaque-secundarios-content.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CardDestaqueSecundariosComponent } from './components/card-destaque-sec
     CardDestaquePrincPhotoComponent,
     CardDestaquePrincResumeComponent,
     CardDestaqueSecundariosComponent,
+    CardDestaqueSecundariosContentComponent,
   ],
   imports: [
     BrowserModule,
