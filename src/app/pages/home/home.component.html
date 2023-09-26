@@ -1,39 +1,3 @@
-<!-- <div class="home_container">
-  <app-card
-    gameCover="assets/bt-5.jpg"
-    gameLabel="Exclusive"
-    gamePrice="R$ 299,99"
-    gameType="Full Game"
-    [gameSpans]="[
-      { gameSpanEstilo: 'spanPrincipal', gameType: 'Digital Game' },
-      { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' }
-    ]"
-  ></app-card>
-  <app-card
-    gameCover="assets/ac-cover.jpg"
-    gameLabel="Cross Buy"
-    gamePrice="R$ 199,90"
-    gameType="Digital Game"
-    [gameSpans]="[
-      { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game' },
-      { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' },
-      { gameSpanEstilo: 'spanSecundario', gameType: 'PS3' }
-    ]"
-  ></app-card>
-  <app-card
-    gameCover="assets/bt-hardline.jpg"
-    gameLabel="Cross Buy"
-    gamePrice="R$ 299,50"
-    gameType="Digital Game"
-    [gameSpans]="[
-      { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game!' },
-      { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' },
-      { gameSpanEstilo: 'spanSecundario', gameType: 'PS3' },
-      { gameSpanEstilo: 'spanSecundario', gameType: 'PS Vita' }
-    ]"
-  ></app-card>
-</div> -->
-
 <app-menu-bar></app-menu-bar>
 <app-card-destaque-princ></app-card-destaque-princ>
 <app-card-destaque-secundarios
@@ -80,3 +44,52 @@
     }
   ]"
 ></app-card-destaque-secundarios>
+<div class="app-card_container_mais_vendidos">
+  <p>Mais vendidos</p>
+  <div class="app-card_container_list_cards">
+    <app-card
+      gameCover="assets/bt-5.jpg"
+      gameLabel="Exclusive"
+      gamePrice="R$ 299,99"
+      gameType="Full Game"
+      [gameSpans]="[
+        { gameSpanEstilo: 'spanPrincipal', gameType: 'Digital Game' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' }
+      ]"
+    ></app-card>
+    <app-card
+      gameCover="assets/ac-cover.jpg"
+      gameLabel="Cross Buy"
+      gamePrice="R$ 199,90"
+      gameType="Digital Game"
+      [gameSpans]="[
+        { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS3' }
+      ]"
+    ></app-card>
+    <app-card
+      gameCover="assets/bt-hardline.jpg"
+      gameLabel="Cross Buy"
+      gamePrice="R$ 299,50"
+      gameType="Digital Game"
+      [gameSpans]="[
+        { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game!' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS3' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS Vita' }
+      ]"
+    ></app-card>
+    <app-card
+      gameCover="assets/bt-bad-company-2.jpg"
+      gameLabel="Exclusive"
+      gamePrice="R$ 398,50"
+      gameType="Digital Game"
+      [gameSpans]="[
+        { gameSpanEstilo: 'spanPrincipal', gameType: 'Full Game!' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS5' },
+        { gameSpanEstilo: 'spanSecundario', gameType: 'PS4' }
+      ]"
+    ></app-card>
+  </div>
+</div>

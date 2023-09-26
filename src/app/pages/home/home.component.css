@@ -1,13 +1,21 @@
-
-/*
- .home_container {
-  width: 90%;
-  margin: auto;
-  padding-top: 150px;
+.app-card_container_mais_vendidos {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 202px;
+  padding: 28px 33px;
 }
-*/
+
+.app-card_container_list_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.app-card_container_mais_vendidos p {
+  margin-left: 5px;
+  font-size: 35px;
+  color: #999999;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
