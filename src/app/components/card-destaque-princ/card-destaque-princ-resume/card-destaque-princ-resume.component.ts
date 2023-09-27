@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-destaque-princ-resume',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-destaque-princ-resume.component.css', './card-destaque-princ-resume.responsive.component.css']
 })
 export class CardDestaquePrincResumeComponent {
+  @Input() id: string = "";
 
 }

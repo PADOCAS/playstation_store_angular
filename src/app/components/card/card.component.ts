@@ -7,6 +7,7 @@ import { GameConsoleSpan } from 'src/models/gameConsoleSpan';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
+  @Input() id:string = "";
   @Input() gameCover:string = "";
   // Propriedade dos filhos para ter possibilidade de passar isso já na construção do card (repassando para os filhos)
   // Para isso o nome das variáveis devem ser iguais a dos filhos!!! (APENAS ISSO BASTA PARA SER PASSADO DE PAI PARA FILHO)

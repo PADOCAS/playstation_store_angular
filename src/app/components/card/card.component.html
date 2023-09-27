@@ -1,4 +1,4 @@
-<a href="" class="card_container">
+<a [routerLink]="['content', id]" class="card_container">
   <img class="card_img" src="{{ gameCover }}" alt="" />
   <app-card-label gameLabel="{{ gameLabel }}"></app-card-label>
   <app-card-pricing
