@@ -10,6 +10,10 @@ import { CardDestaqueSecundario } from 'src/models/cardDestaqueSecundario';
   ],
 })
 export class CardDestaqueSecundariosContentComponent {
+  @Input() id:string = "1";
   @Input() name: string = '';
   @Input() photo: string = '';
+  @Input() valor: string = "";
+  @Input() plataformas?: [{}] | any;
+  @Input() description: string = "";
 }

@@ -1,8 +1,5 @@
 <div class="card-destaque-secundarios-content_container">
-  <a href="#">
-    <img
-      src="{{photo}}"
-      alt="{{name}}"
-    />
+  <a [routerLink]="['content', id]">
+    <img src="{{ photo }}" alt="{{ name }}" />
   </a>
 </div>
