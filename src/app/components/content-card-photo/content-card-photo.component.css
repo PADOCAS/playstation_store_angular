@@ -1,0 +1,8 @@
+.content-card-photo_container {
+  position: relative;
+  top: 141px;
+}
+.content-card-photo_container img {
+  width: 100%;
+  height: 480px;
+}

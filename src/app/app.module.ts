@@ -23,6 +23,8 @@ import { CardDestaqueSecundariosComponent } from './components/card-destaque-sec
 import { CardDestaqueSecundariosContentComponent } from './components/card-destaque-secundarios/card-destaque-secundarios-content/card-destaque-secundarios-content.component';
 import { CardFooterComponent } from './components/card-footer/card-footer.component';
 import { ContentComponent } from './pages/content/content.component';
+import { ContentCardPhotoComponent } from './components/content-card-photo/content-card-photo.component';
+import { ContentCardInfoComponent } from './components/content-card-info/content-card-info.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,8 @@ import { ContentComponent } from './pages/content/content.component';
     CardDestaqueSecundariosContentComponent,
     CardFooterComponent,
     ContentComponent,
+    ContentCardPhotoComponent,
+    ContentCardInfoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,11 @@
-footer {
+.footerPadrao {
   position: relative;
   top: 202px;
+}
+
+.footerContent {
+  position: relative;
+  top: 136px;
 }
 
 .footer_content {

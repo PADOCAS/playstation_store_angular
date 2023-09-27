@@ -3,7 +3,7 @@ export const dados = [
     id: '1',
     name: 'FIFA 2024',
     photo:
-      'https://cdn.espn.com.br/image/wide/622_9ed38eb3-b595-3d4e-97ae-9525776648d9.jpg',
+      'https://image.api.playstation.com/vulcan/ap/rnd/202308/0910/d5aa6c8d6d2aef2eacfe467e884014f8b12113adae8f116a.png?w=5000&thumb=false',
     valor: 'R$ 409,56',
     plataformas: [
       {
@@ -18,29 +18,35 @@ export const dados = [
     Reserve* a Edição Ultimate do EA SPORTS FC™ 24 antes de 29 de setembro para receber:
     <br><br>
     - Até 7 dias de acesso antecipado. Comece a jogar em 22 de setembro
+    <br>
     - 4.600 FC Points
+    <br>
     - Acesso a uma campanha da Nike no Ultimate Team™ de 22 a 29 de setembro
+    <br>
     - Item de jogador de campanha da Nike por empréstimo no Ultimate Team™ (24 partidas)
+    <br>
     - Uniforme Nike x EA SPORTS FC™ Ultimate Team™
+    <br>
     - Item de Jogador não negociável da Seleção da Semana 1 do Ultimate Team™
+    <br>
     - Além disso, todas as vantagens da Edição Standard
-    <br>
+    <br><br>
     Jogue até 1º de novembro para ganhar o Status de Fundação*.
-    <br>
+    <br><br>
     EA SPORTS FC™ 24 inclui os jogos para PS4™ e PS5™.
-    <br>
+    <br><br>
     O EA SPORTS FC™ 24 é uma nova era para o Jogo de Todo Mundo: mais de 19.000 atletas com licença completa, mais de 700 times e mais de 30 ligas, tudo isso na experiência de futebol mais autêntica já criada.
-    <br>
+    <br><br>
     Sinta o jogo de perto com três tecnologias de ponta que proporcionam um realismo inigualável em todas as partidas: HyperMotionV**, PlayStyles otimizada pela Opta, e uma Frostbite™ Engine melhorada.
     A tecnologia HyperMotionV captura o jogo como ele realmente é jogado, usando dados volumétricos de mais de 180 partidas masculinas e femininas para garantir uma movimentação no jogo que reflete com precisão a ação em campo no mundo real.
     A tecnologia PlayStyles analisa atletas, interpretando dados da Opta e de outras fontes e as transformando em habilidades distintivas que exaltam o realismo e a individualidade de cada atleta.
     A Frostbite™ Engine melhorada oferece o Jogo de Todo Mundo com riqueza de detalhes, proporcionando um novo nível de imersão a cada partida.
-    <br>
+    <br><br>
     Desenvolva lendas do clube e melhore atletas da sua equipe com as novas Evoluções do Ultimate Team™, e dê as boas-vindas às jogadoras do futebol feminino, que estarão junto com os homens enquanto você cria seu time dos sonhos.
     Escreva sua própria história na Carreira de Jogador e de Manager, e junte suas amizades em campo nos modos com crossplay***, Clubs e VOLTA FOOTBALL™.
-    <br>
+    <br><br>
     O EA SPORTS FC™ 24 é o novo capítulo de um futuro do futebol com mais inovação.
-    <br>
+    <br><br>
     Este título inclui compras opcionais dentro do jogo de moeda virtual que pode ser usada para adquirir itens virtuais do jogo, incluindo uma seleção aleatória de itens virtuais do jogo.
     `,
   },
