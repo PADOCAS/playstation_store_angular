@@ -1,0 +1,11 @@
+<div class="content-card-buy_container">
+  <p>{{ name }}</p>
+  <div class="content-card-buy_plataformas">
+    <app-content-card-buy-plataforma
+      *ngFor="let plataforma of plataformas"
+      name="{{ plataforma.name }}"
+    ></app-content-card-buy-plataforma>
+  </div>
+  <h3>{{ valor }}</h3>
+  <button (click)="onClickBuy()">Adicionar ao carrinho</button>
+</div>

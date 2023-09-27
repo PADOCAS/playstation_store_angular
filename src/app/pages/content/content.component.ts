@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { dados } from '../../data/dados';
 import { ActivatedRoute } from '@angular/router';
 import { Router, NavigationEnd } from '@angular/router';
+import { Plataforma } from 'src/models/plataforma';
 
 @Component({
   selector: 'app-content',
@@ -13,7 +14,7 @@ export class ContentComponent implements OnInit {
   photo: string = '';
   name: string = '';
   valor: string = '';
-  plataformas?: [{}] | any;
+  plataformas?: Plataforma[];
   description: string = '';
 
   constructor(private route: ActivatedRoute, private router: Router) {}

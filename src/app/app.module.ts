@@ -25,6 +25,8 @@ import { CardFooterComponent } from './components/card-footer/card-footer.compon
 import { ContentComponent } from './pages/content/content.component';
 import { ContentCardPhotoComponent } from './components/content-card-photo/content-card-photo.component';
 import { ContentCardInfoComponent } from './components/content-card-info/content-card-info.component';
+import { ContentCardBuyComponent } from './components/content-card-buy/content-card-buy.component';
+import { ContentCardBuyPlataformaComponent } from './components/content-card-buy/content-card-buy-plataforma/content-card-buy-plataforma.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { ContentCardInfoComponent } from './components/content-card-info/content
     ContentComponent,
     ContentCardPhotoComponent,
     ContentCardInfoComponent,
+    ContentCardBuyComponent,
+    ContentCardBuyPlataformaComponent,
   ],
   imports: [
     BrowserModule,
