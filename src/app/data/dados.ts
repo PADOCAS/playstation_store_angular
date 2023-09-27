@@ -54,7 +54,7 @@ export const dados = [
     id: '2',
     name: `Baldur's Gate 3`,
     photo:
-      'https://image.api.playstation.com/pr/bam-art/161/541/132983c7-9156-467d-a9b0-e95a64ab6114.jpg?w=440&thumb=false',
+      'assets/baldursgate3_capa.jpg',
     valor: 'R$ 299,99',
     plataformas: [
       {
@@ -80,7 +80,7 @@ export const dados = [
     id: '3',
     name: `Resident Evil 4`,
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/PjIoeaMt833otj5HukAWGfui.png?w=1920&thumb=false',
+      'assets/resident-Evil-4-Remake-Cap-1-Combate.jpg',
     valor: 'R$ 171,60',
     plataformas: [
       {
@@ -111,7 +111,7 @@ export const dados = [
     id: '4',
     name: `Spider-Man 2`,
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png?w=1920&thumb=false',
+      'assets/spider-man-2002-banner_k5qn.jpg',
     valor: 'R$ 399,50',
     plataformas: [
       {
@@ -163,7 +163,7 @@ export const dados = [
     id: '5',
     name: `Like a Dragon: Infinite Wealth`,
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202308/2906/47def08ae64cdb07b3ba7512f690ea5fa24ea47e060b8efe.png?w=5000&thumb=false',
+      'assets/Yakuza-Like-a-Dragon.jpg',
     valor: 'R$ 349,90',
     plataformas: [
       {
@@ -230,7 +230,7 @@ export const dados = [
     id: '6',
     name: `Lies of P`,
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202305/2308/d946b9bae05aad7d8b289a9bcee0fb9fd215090b85d34540.png?w=5000&thumb=false',
+      'assets/lies-of-p-infohub_6192868.jpg',
     valor: 'R$ 299,90',
     plataformas: [
       {
@@ -256,7 +256,7 @@ export const dados = [
     id: '7',
     name: `UFC® 5 Edição Deluxe`,
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202308/3112/00002d3613b3c01f883be970f5167ae0799e22ff0115b4bb.png?w=5000&thumb=false',
+      'assets/UFC5_UFCTakeover_1920x1080.jpg',
     valor: 'R$ 528,90',
     plataformas: [
       {
@@ -292,7 +292,7 @@ export const dados = [
     id: '8',
     name: `Fortnite`,
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202308/2120/35cc2d1be6ba60509c17ac47e015121793a3ee19f53d683f.jpg?w=5000&thumb=false',
+      'assets/fortnite-capa.jpg',
     valor: 'Gratuito',
     plataformas: [
       {
@@ -311,7 +311,7 @@ export const dados = [
   {
     id: '9',
     name: `The Crew™ Motorfest - Pacote Cross-Gen`,
-    photo: 'https://image.api.playstation.com/vulcan/ap/rnd/202305/2315/b6034169263e4dc8b34ab11690dbd4d72e11501f4066ab8f.jpg?w=5000&thumb=false',
+    photo: 'assets/TCM_Screenshot6_120623_0815PMCEST.jpg',
     valor: 'R$ 329,90',
     plataformas: [
       {
@@ -342,7 +342,7 @@ export const dados = [
   {
     id: '10',
     name: `Battlefield™ V`,
-    photo: 'https://image.api.playstation.com/vulcan/img/rnd/202010/1520/CMyTUxgeMmcaJFJvnYltXzG7.jpg?w=5000&thumb=false',
+    photo: 'assets/capa_battlefield_5_wal_in_the_pacific_1400x875_5db1c77c0dc7b.jpg',
     valor: 'R$ 299,99',
     plataformas: [
       {
@@ -367,7 +367,7 @@ export const dados = [
   {
     id: '11',
     name: `Assassins Creed`,
-    photo: 'https://image.api.playstation.com/vulcan/img/rnd/202010/0220/lX4FGJHDVSy8szMS7fRrevmY.jpg?w=5000&thumb=false',
+    photo: 'assets/ac06.jpg',
     valor: 'R$ 199.90',
     plataformas: [
       {
@@ -387,7 +387,7 @@ export const dados = [
   {
     id: '12',
     name: `Battlefield Hardline`,
-    photo: 'https://image.api.playstation.com/vulcan/ap/rnd/202305/1810/8bdcce97aab36b7071928bb13b8ae6a4d9e05dc47ca728f1.png?w=5000&thumb=false',
+    photo: 'assets/battlefield-hardline-4k-p4.jpg',
     valor: 'R$ 299,50',
     plataformas: [
       {
@@ -421,7 +421,7 @@ export const dados = [
   {
     id: '13',
     name: `Battlefield II`,
-    photo: 'https://image.api.playstation.com/cdn/UP0006/CUSA00110_00/0ihyT1thfpkaypwhvFZhV1frZtmz13KA.jpg?w=5000&thumb=false',
+    photo: 'assets/wp4162884.jpg',
     valor: 'R$ 398,50',
     plataformas: [
       {
