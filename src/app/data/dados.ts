@@ -3,7 +3,8 @@ export const dados = [
     id: '1',
     name: 'FIFA 2024',
     photo:
-      'https://image.api.playstation.com/vulcan/ap/rnd/202308/0910/d5aa6c8d6d2aef2eacfe467e884014f8b12113adae8f116a.png?w=5000&thumb=false',
+      // 'https://image.api.playstation.com/vulcan/ap/rnd/202308/0910/d5aa6c8d6d2aef2eacfe467e884014f8b12113adae8f116a.png?w=5000&thumb=false',
+      'assets/fifa_1915.jpg',
     valor: 'R$ 409,56',
     plataformas: [
       {
@@ -387,7 +388,7 @@ export const dados = [
   {
     id: '12',
     name: `Battlefield Hardline`,
-    photo: 'assets/battlefield-hardline-4k-p4.jpg',
+    photo: 'assets/BFHardline.jpg',
     valor: 'R$ 299,50',
     plataformas: [
       {
