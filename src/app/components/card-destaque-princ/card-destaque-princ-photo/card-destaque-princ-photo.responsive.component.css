@@ -1,7 +1,7 @@
 .card-destaque-princ-photo_container {
   height: 440px;
-  /* background-image: url(../../../assets/fifa_2024_teste.jpeg); */
-  background-image: url(https://trivela.com.br/wp-content/uploads/2023/07/EA-FC24.jpg);
+  background-image: url(../../../../assets/fifa_2024_rei.jpg);
+  /*background-image: url(https://trivela.com.br/wp-content/uploads/2023/07/EA-FC24.jpg);*/
   background-size: cover;
   background-position: center;
   position: relative;
@@ -9,8 +9,8 @@
 }
 
 /* Ate 1027 da pra por essa foto rei, mas abaixo disso temos que buscar outra */
-@media screen and (max-width: 1027px) {
-  .card-destaque-princ-photo_container {
-    background-image: url(https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=webp&quality=91&imagick=uploads.adrenaline.com.br/2023/07/EA-divulga-capa-da-Ultimate-Edition-de-EA-Sports-FC-24-que-ganha-trailer-de-anuncio-912x569.jpg);
-  }
-}
+/*@media screen and (max-width: 1027px) {*/
+/*  .card-destaque-princ-photo_container {*/
+/*    background-image: url(https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=webp&quality=91&imagick=uploads.adrenaline.com.br/2023/07/EA-divulga-capa-da-Ultimate-Edition-de-EA-Sports-FC-24-que-ganha-trailer-de-anuncio-912x569.jpg);*/
+/*  }*/
+/*}*/
